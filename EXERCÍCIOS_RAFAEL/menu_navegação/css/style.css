@@ -1,0 +1,47 @@
+*{
+    margin: 0%;/*Removendo as Margens Padrão*/
+    padding: 0%;/*Removendo o preenchimento padrão*/
+}
+/*Estilizar o cabeçalho*/
+header{
+    background-color: #746ae2;/*Define a cor de fundo do cabeçalho*/
+}
+nav ul li{
+    display: flex;/*Define a exibição dos itens da lista para linhas*/
+    list-style: none;/*Remove os marcadores*/
+    justify-content: center;/*Centraliza os itens do menu ao centro*/
+    margin: 0%;/*Define espaçamento entre linhas*/
+}
+nav ul li a{
+    color: white;/*Cor da letra branca*/
+    text-decoration: none;/*Removendo o sublinhado*/
+    font-weight: bold;/*Define os textos do link em negrito*/
+    padding: 5px 10px;
+    transition: color 0.1s ;
+}
+nav ul li a:hover{
+    color: rgb(196, 255, 234);/**/
+    border-radius: 10px;
+}
+nav ul{
+    display: flex;/*Define a exibição dos itens da lista para linha*/
+    list-style: none;/*Remove os marcadores*/
+    justify-content: center;/*Centralizar os itens do menun ao centro*/
+    margin: 15px;/*Define espaçamento entre linhas*/
+}
+section{ 
+    padding: 60px 20px;
+    text-align: center;
+    height: 900px;
+}
+#Home{
+    background-color: lightcyan;
+}
+
+#Sobre{
+    background-color: lightblue;
+}
+
+#Contato{
+    background-color: lightgoldenrodyellow;
+}
